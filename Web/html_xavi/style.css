@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+:root{
+    --white: #FFF;
+    --black: #000000;
+    --whitesmoke: #F9F9F9;
+    --light-grey: #ECECEC;
+    --grey: #c4c4c4;
+    --deep-grey: #343434;
+    --medium-grey: #A7A7A7;
+    --green: #7edd72;
+}
+
+main{
+    display: flex;
+}
+
+.login{
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: clamp(35px,8%,70px);
+    background-color: gainsboro;
+    border-radius: 86px;
+    margin: auto;
+}
+
+.criar{
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100vh;
+    padding: clamp(35px,8%,70px);
+    background-color: gainsboro;
+    margin: auto;
+}
+
+.block{
+    margin-top: 100px;
+}
+
+
+.login_title{
+    color:var(--deep-grey);
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.login_label{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input{
+    width: 100%;
+    background-color: var(--light-grey);
+    border: 2px solid rgb(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey);
+}
+
+.input1{
+    width: 100%;
+    background-color: var(--light-grey);
+    border: 2px solid rgb(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey);
+}
+
+.login_label span{
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--medium-grey);
+    margin: 20px;
+    cursor: text;
+    transition: all 200ms ease;
+}
+
+.input:focus{
+    background-color: var(--whitesmoke);
+    border: 2px solid var(--deep-grey);
+}
+
+.login_label .span-active{
+    font-size: 0.7em;
+    margin: 8px 10px;
+}
+
+.login_button{
+    width: 80%;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.login_button span{
+    position: absolute;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--black);
+    margin: 20px;
+}
+
+.login_button:disabled{
+    cursor: auto;
+    background-color: var(--light-grey);
+    border: 2px solid var(--light-grey);
+}
+
+.login_button:disabled span{
+    color: var(--grey);
+}
+
+.criar_button{
+    width: 80%;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.criar_button span{
+    position: absolute;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--black);
+    margin: 20px;
+}
+
+.criar_button:disabled{
+    cursor: auto;
+    background-color: var(--light-grey);
+    border: 2px solid var(--light-grey);
+}
+
+.criar_button:disabled span{
+    color: var(--grey);
+}
+
+.login_link{
+    font-size: 0.7em;
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.wallpaper1{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('./imagens/860x394.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.wallpaper2{
+    width: 100%;
+    background-image: url('./imagens/keyimage.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+
+.message{
+    font-size: 1.5em;
+    display: none;
+    height: 50px;
+    width: 200px;
+    position: fixed;
+    border-radius: 3px;
+    text-align: center;
+    color: var(--black);
+    margin-top: 50px;
+    margin-left: 50%;
+    background-color: var(--medium-grey);
+}
+
+#msgErro{
+    text-align: center;
+    color: red;
+    background-color: var(--whitesmoke);
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+
+
