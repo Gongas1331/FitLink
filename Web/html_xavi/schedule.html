@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>O seu perfil</title>
+        <link rel="stylesheet" href="estiloperfil.css">
+        <link href="https:/fonts.googleapis.com/css2?
+        family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            .schedule {
+      width: 400px;
+      border-radius: 20px;
+      overflow: hidden;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      align-items: center;
+      
+    }
+    
+    .month {
+      text-align: center;
+      padding: 10px;
+      background-color: #f9f9f9;
+      font-weight: bold;
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    tr:hover {background-color: #f5f5f5;}
+    
+    .clickable {
+      cursor: pointer;
+    }
+          </style>
+    </head>
+
+    <body>
+        <div class="container" >
+            <div class="navbar">
+                <a href="profile.html"><img  src="imagens/logo.png" style="height: 150px; width: 180px" class="exit"></a>
+                <nav>
+                    <ul>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+                <a href="index.html"><img src="imagens/exit.png" style="height: 40px; width: 40px"  class="exit"></a>
+            </div>
+            <div class="center" style="display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 350px;">
+                <div class="schedule">
+                  <div class="month">
+                    <h2>May 2023</h2>
+                  </div>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Day</th>
+                        <th>Activity</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="clickable" onclick="window.location.href='#';">
+                            <td>May 14</td>
+                            <td>Sunday</td>
+                            <td>Strength Training</td>
+                          </tr>
+                      <tr class="clickable" onclick="window.location.href='#';">
+                        <td>May 15</td>
+                        <td>Monday</td>
+                        <td>Yoga</td>
+                      </tr>
+                      <tr class="clickable" onclick="window.location.href='#';">
+                        <td>May 16</td>
+                        <td>Tuesday</td>
+                        <td>Cross Training</td>
+                      </tr>
+                      <tr class="clickable" onclick="window.location.href='#';">
+                        <td>May 17</td>
+                        <td>Wednesday</td>
+                        <td>Zumba</td>
+                      </tr>
+                      <tr class="clickable" onclick="window.location.href='#';">
+                        <td>May 18</td>
+                        <td>Thursday</td>
+                        <td>Cardio</td>
+                      </tr>
+                      <tr class="clickable" onclick="window.location.href='#';">
+                        <td>May 19</td>
+                        <td>Friday</td>
+                        <td>Strength Training</td>
+                      </tr>
+                      <tr >
+                        <td>May 19</td>
+                        <td>Saturday</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+    </body>
+</html>
