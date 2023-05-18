@@ -180,14 +180,14 @@ main{
 .wallpaper1{
     width: 100%;
     min-height: 100vh;
-    background-image: url('./imagens/860x394.jpg');
+    background-image: url('./imagens/login\ background.avif');
     background-size: cover;
     background-position: center;
 }
 
 .wallpaper2{
     width: 100%;
-    background-image: url('./imagens/keyimage.jpg');
+    background-image: url('./imagens/criarcontabackground.avif');
     background-size: cover;
     background-position: center;
     flex: 1;
