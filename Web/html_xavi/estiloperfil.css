@@ -9,20 +9,23 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: url(imagens/wallpaperwhite.jpg);
+    background-image: url(imagens/background.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding-left: 8%;
-    padding-right: 8%;
+    
     box-sizing: border-box;
 }
 
 .navbar{
-    height: 12%;
+    height: 11%;
     display: flex;
     align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding-left: 0%;
+    padding-right: 0%;
+    
 }
 
 .logo{
@@ -88,17 +91,16 @@ h2{
 }
 
 .card{
-    width: 200px;
-    height: 230px;
+    width: 170px;
+    height: 170px;
     display: inline-block;
     border-radius: 10px;
     padding: 15px 25px;
     box-sizing: border-box;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(imagens/frog.png);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     transition: transform 0.5s;
     border-color: black;
     border-radius: 5px;
@@ -149,3 +151,6 @@ img{
     color: rgb(6, 6, 6) ;
     font-size: 100px;
   }
+
+ 
+
