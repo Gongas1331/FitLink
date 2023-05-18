@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Lexenda Deca', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagens/wallpaperwhite.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    
+}
+
+.exit{
+    width:60px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-left: 60px;
+}
+
+.exitw{
+    width:60px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-left: 60px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    
+}
+
+.row{
+    display: flex;
+    height: 48%;
+    align-items: center ;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: rgb(255, 255, 255) ;
+    font-size: 100px;
+    
+    
+}
+
+h2{
+    color:rgb(0, 0, 0);
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(imagens/frog.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    border-color: black;
+    border-radius: 5px;
+}
+.card2{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(photos/);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.card:hover{
+    transform:  translateY(-10px);
+}
+
+img{
+    color: white;
+}
+
+.novacol {
+    max-width: 50px;
+    height: 70px;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 4px dashed #000000;
+    border-radius: 10px;
+  }
+
+  h3{
+    color: rgb(6, 6, 6) ;
+    font-size: 100px;
+  }
