@@ -27,14 +27,14 @@
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: "Roboto", sans-serif;
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
+}
 
-  *,
-  *::before,
-  *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-  }
-  
+}
+
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -85,49 +85,127 @@ body {
 }
 
 
-.login{
+.login {
+    align-self: center;
     align-items: center;
     width: 100%;
-    max-width: 500px;
-    padding: clamp(35px,8%,70px);
+    padding: clamp(35px, 8%, 70px);
     background-color: #F6F4F3;
-    border-radius: 86px;
+    border-radius: 10%;
     margin: auto;
 }
 
-.block{
-    margin-top: 100px;
+.block {
+    margin: auto;
+    margin-top: auto;
+    position:relative;
+    border-radius: 10%;
+    max-width: fit-content;
+    align-self: center;
+    align-items: center;
+    flex: auto;
+    display: flex;
+    border: 5px var(--blue);
 }
 
-.login_title{
-    color:var(--blue);
+.login_title {
+    color: var(--blue);
     font-size: 1.5em;
     margin-bottom: 30px;
 }
 
-.login_label{
+.login_label {
     display: block;
     margin-bottom: 20px;
     width: 100%;
 }
 
-.login_label span{
+.login_label span {
     position: absolute;
     font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--medium-grey);
+    color: var(--red);
     margin: 20px;
     cursor: text;
     transition: all 200ms ease;
 }
 
-.login_label .span-active{
+.login_label .span-active {
     font-size: 0.7em;
     margin: 8px 10px;
 }
 
-#msgErro{
+.login_button {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: var(--green);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+.login_button span {
+    position: absolute;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--black);
+    margin: 20px;
+}
+
+.login_button:disabled {
+    cursor: auto;
+    background-color: var(--light-grey);
+    border: 2px solid var(--light-grey);
+}
+
+.login_button:disabled span {
+    color: var(--grey);
+}
+
+.login_link {
+    width: 100%;
+    font-size: 0.7em;
+    text-decoration: none;
+    text-align: center;
+    color: var(--blue);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.input {
+    width: 100%;
+    background-color: var(--light-grey);
+    border: 2px solid #E03616;
+    border-radius: 10px;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey);
+}
+
+.input1 {
+    width: 100%;
+    background-color: var(--light-grey);
+    border: 2px solid rgb(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey);
+}
+
+#msgErro {
     text-align: center;
     color: var(--danger);
     background-color: var(--whitesmoke);
