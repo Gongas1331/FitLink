@@ -177,6 +177,7 @@ body {
     text-align: center;
     color: var(--blue);
     text-transform: uppercase;
+    margin: auto;
     margin-bottom: 5px;
     font-weight: 700;
 }
@@ -191,6 +192,7 @@ body {
     padding: 25px 10px 10px;
     font-weight: 600;
     color: var(--deep-grey);
+    margin: auto;
 }
 
 .input1 {
@@ -203,6 +205,7 @@ body {
     padding: 25px 10px 10px;
     font-weight: 600;
     color: var(--deep-grey);
+    margin: auto;
 }
 
 #msgErro {
