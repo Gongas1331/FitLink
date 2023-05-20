@@ -16,6 +16,8 @@
     --deep-grey: #343434;
     --medium-grey: #A7A7A7;
     --green: #7edd72;
+    --blue: #3FA7D6;
+    --red: #e03616;
 }
 
 main{
@@ -27,7 +29,7 @@ main{
     width: 100%;
     max-width: 500px;
     padding: clamp(35px,8%,70px);
-    background-color: gainsboro;
+    background-color: #f6f4f3;
     border-radius: 86px;
     margin: auto;
 }
@@ -48,7 +50,7 @@ main{
 
 
 .login_title{
-    color:var(--deep-grey);
+    color:var(--blue);
     font-size: 1.5em;
     margin-bottom: 30px;
 }
@@ -61,8 +63,8 @@ main{
 
 .input{
     width: 100%;
-    background-color: var(--light-grey);
-    border: 2px solid rgb(0, 0, 0, 0);
+    background-color: #f6f4f3;
+    border: 2px solid var(--red);
     border-radius: 5px;
     outline: none;
     font-size: 0.9em;
@@ -88,7 +90,7 @@ main{
     font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--medium-grey);
+    color: var(--red);
     margin: 20px;
     cursor: text;
     transition: all 200ms ease;
@@ -96,7 +98,7 @@ main{
 
 .input:focus{
     background-color: var(--whitesmoke);
-    border: 2px solid var(--deep-grey);
+    border: 2px solid var(--red);
 }
 
 .login_label .span-active{
@@ -105,7 +107,7 @@ main{
 }
 
 .login_button{
-    width: 80%;
+    width: 100%;
     height: 40px;
     padding: 20px;
     display: flex;
@@ -133,7 +135,7 @@ main{
 }
 
 .login_button:disabled span{
-    color: var(--grey);
+    color: var(--blue);
 }
 
 .criar_button{
