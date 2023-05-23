@@ -77,19 +77,6 @@ nav ul li a{
     flex-basis: 50%;
 }
 
-h1{
-    color: rgb(255, 255, 255) ;
-    font-size: 100px;
-    
-    
-}
-
-h2{
-    color:rgb(0, 0, 0);
-    font-size: 13px;
-    line-height: 15px;
-}
-
 .card{
     width: 170px;
     height: 170px;
@@ -101,33 +88,48 @@ h2{
     margin: 10px 15px;
     background-position: center;
     background-size:cover;
+    background-color: black;
     transition: transform 0.5s;
     border-color: black;
     border-radius: 5px;
 }
-.card2{
+
+.card{
     width: 200px;
-    height: 230px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor:pointer;
-    margin: 10px 15px;
-    background-image: url(photos/);
-    background-position: center;
+    height: 200px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-size: cover;
-    transition: transform 0.5s;
-    border-color: black;
-    border-radius: 5px;
 }
 
 .card:hover{
     transform:  translateY(-10px);
 }
 
-img{
-    color: white;
+.card-content {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: white;
+      text-align: right;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .novacol {
@@ -146,6 +148,17 @@ img{
     border: 4px dashed #000000;
     border-radius: 10px;
   }
+
+h1{
+    color: rgb(255, 255, 255) ;
+    font-size: 100px;    
+}
+
+h2{
+    color:rgb(0, 0, 0);
+    font-size: 13px;
+    line-height: 15px;
+}
 
   h3{
     color: rgb(6, 6, 6) ;
