@@ -100,7 +100,8 @@ body {
     min-width: 360px;
     height: 680px;
     position:relative;
-    border-radius: 20%;
+    border-radius: 10px;
+    margin-top: auto;
     align-self: center;
     align-items: center;
     display: flex;
@@ -114,7 +115,7 @@ body {
     height: 100%;
     padding: clamp(35px, 8%, 70px);
     background-color: #F6F4F3;
-    border-radius: 10%;
+    border-radius: 50px;
     margin: auto;
 }
 
