@@ -3,7 +3,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>O seu perfil</title>
         <link rel="stylesheet" href="estiloperfil.css">
-        <link href="https:/fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href='https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.css'><link rel="stylesheet" href="css/stylecalendar.css">
     </head>
 
     <body>
@@ -16,11 +16,17 @@
             </div>
 
             
-            <div class="container1" style="margin-top: 12%;">
-                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FLisbon&src=OTFlYTdhMzc3YWQzOTU0YTM1ODAwMzZiM2ExYWZhYmY2YzNmNjY0ZGU4YmIzMGI1NzJkM2RlMTRiNGVjNGExNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <div class="container1">
+                
             </div>
-            
-
         </div>
+        <div class="calendar">
+        <!-- partial:index.partial.html -->
+        <div id="calendarContainer"></div>
+        <div id="organizerContainer"></div>
+        <!-- partial -->
+          <script src='https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.js'></script><script  src="js/scriptcalendar.js"></script>
+    </div>
     </body>
+    
 </html>
