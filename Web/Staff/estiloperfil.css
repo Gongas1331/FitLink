@@ -374,4 +374,19 @@ dd {
   }
 }
 
+/* -------------------------------Calendario*/ 
+.calendario {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#calendarContainer,
+#organizerContainer {
+    float: left;
+    margin: 5px;
+}
+
 

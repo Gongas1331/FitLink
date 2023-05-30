@@ -2,8 +2,8 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>O seu perfil</title>
+        <link rel='stylesheet' href='https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.css'><link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="estiloperfil.css">
-        <link rel='stylesheet' href='https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.css'><link rel="stylesheet" href="css/stylecalendar.css">
     </head>
 
     <body>
@@ -15,18 +15,13 @@
                 <div class="exit"><a href="index.html"><img src="imagens/exit.png" style="height: 40px; width: 40px;"></a></div>
             </div>
 
-            
-            <div class="container1">
-                
+            <div class="calendario">
+                <div id="calendarContainer"></div>
+                <div id="organizerContainer"></div>
+                <script src='https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.js'></script>
+                <script  src="./ScriptCalendario.js"></script>
             </div>
-        </div>
-        <div class="calendar">
-        <!-- partial:index.partial.html -->
-        <div id="calendarContainer"></div>
-        <div id="organizerContainer"></div>
-        <!-- partial -->
-          <script src='https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.js'></script><script  src="js/scriptcalendar.js"></script>
-    </div>
+
     </body>
     
 </html>
