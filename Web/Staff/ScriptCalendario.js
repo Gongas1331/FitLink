@@ -47,10 +47,10 @@ var calendar = new Calendar(
     3 // maximum length of the calendar labels
   ],
   [
-    "#E91E63", // primary color
-    "#C2185B", // primary dark color
-    "#FFFFFF", // text color
-    "#F8BBD0" // text dark color
+    "#3FA7D6", // primary color
+    "#78C0E0", // primary dark color
+    "#F6F4F3", // text color
+    "#F6F4F3" // text dark color
   ]
 );
 

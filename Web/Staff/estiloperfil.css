@@ -579,9 +579,10 @@ dd {
     justify-content: center;
     align-items: center;
     align-content: center;
+    scale: 175%;
 }
 
-#calendarContainer,
+#calendarContainer
 #organizerContainer {
     float: left;
     margin: 5px;
