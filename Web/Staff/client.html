@@ -2,9 +2,9 @@
 
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>Client</title>
         <link rel="stylesheet" href="estiloperfil.css">
-        <link href="https:/fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estiloClientes.css">
     </head>
 
     <body>
@@ -29,6 +29,7 @@
         <th>
           E-mail
         </th>
+        <th></th>
         <th></th>
       </tr>
     </thead>
@@ -55,6 +56,11 @@
             Select
           </a>
         </td>
+        <td class='select'>
+          <a class='button1' href='#'>
+            Chat
+          </a>
+        </td>
       </tr>
       <tr>
         <td data-title='Provider Name'>
@@ -67,8 +73,13 @@
           e-mail@test-email.com
         </td>
         <td class='select'>
-          <a class='button' href='#'>
+          <a class='button2' href='#'>
             Select
+          </a>
+        </td>
+        <td class='select'>
+          <a class='button2' href='#'>
+            Chat
           </a>
         </td>
       </tr>
@@ -83,8 +94,13 @@
           e-mail@test-email.com
         </td>
         <td class='select'>
-          <a class='button' href='#'>
+          <a class='button2' href='#'>
             Select
+          </a>
+        </td>
+        <td class='select'>
+          <a class='button2' href='#'>
+            Chat
           </a>
         </td>
       </tr>
@@ -99,8 +115,13 @@
           e-mail@test-email.com
         </td>
         <td class='select'>
-          <a class='button' href='#'>
+          <a class='button2' href='#'>
             Select
+          </a>
+        </td>
+        <td class='select'>
+          <a class='button2' href='#'>
+            Chat
           </a>
         </td>
       </tr>
@@ -110,13 +131,31 @@
     <div class='detail-container'>
       <dl>
         <dt>
-          Provider Name
+          <h4>Cliente</h4>
         </dt>
         <dd>
           John Doe
         </dd>
+  
         <dt>
-<div class="centerer">
+          <h4>Treining Plans</h4>
+        </dt>
+
+         <dd>
+          John Doe
+        </dd>
+  
+
+        <dt>
+          <h4>Nutricional Plans</h4>
+        </dt>
+
+         <dd>
+          John Doe
+        </dd>
+  
+
+        <dt>
   <div class="window">
     <div class="flex-cont">
       <h1 class="title"><span class="site-name">Week Goal</span></h1>
@@ -125,8 +164,8 @@
           <div class="name">
             <ul>
               <li><span class="site-name">Exercises</span></li>
-              <li><span class="site-name">Kcal lost</span></li>
-              <li><span class="site-name">Kcal consumed</span></li>
+              <li><span class="site-name">Cal lost</span></li>
+              <li><span class="site-name">Cal consumed</span></li>
             </ul>
           </div>
         </div>
@@ -162,7 +201,8 @@
       </div>
     </div>
   </div>
-</div>
+        </dt>
+
         </dt>
       </dl>
     </div>
@@ -172,9 +212,71 @@
       </button>
     </div>
   </div>
+  
+  <div class='chat'>
+
+    <div class='chat-container'>
+
+      <didv class="chatcontainer">
+    <div class="row">
+      <section class="chat">
+        <div class="header-chat">
+          <i class="icon fa fa-user-o" aria-hidden="true"></i>
+          <p class="name">Megan Leib</p>
+          <i class="icon clickable fa fa-ellipsis-h right" aria-hidden="true"></i>
+
+    <div class='chat-nav'>
+      <button class='closechat'>
+        Close
+      </button>
+      
+    </div>
+
+        </div>
+        <div class="messages-chat">
+          <div class="message">
+            <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);">
+              <div class="online"></div>
+            </div>
+            <p class="text"> Hi, how are you ? </p>
+          </div>
+          <div class="message text-only">
+            <p class="text"> What are you doing tonight ? Want to go take a drink ?</p>
+          </div>
+          <p class="time"> 14h58</p>
+          <div class="message text-only">
+            <div class="response">
+              <p class="text"> Hey Megan ! It's been a while 😃</p>
+            </div>
+          </div>
+          <div class="message text-only">
+            <div class="response">
+              <p class="text"> When can we meet ?</p>
+            </div>
+          </div>
+          <p class="response-time time"> 15h04</p>
+          <div class="message">
+            <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);">
+              <div class="online"></div>
+            </div>
+            <p class="text"> 9 pm at the bar if possible 😳</p>
+          </div>
+          <p class="time"> 15h09</p>
+        </div>
+        <div class="footer-chat">
+          <i class="icon fa fa-smile-o clickable" style="font-size:25pt;" aria-hidden="true"></i>
+          <input type="text" class="write-message" placeholder="Type your message here"></input>
+          <i class="icon send fa fa-paper-plane-o clickable" aria-hidden="true"></i>
+        </div>
+      </section>
+    </div>
+  </didv>
+
+    </div>
+  </div>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script  src="./scripttabelacliente.js"></script>
+<script  src="./scriptCliente.js"></script>
                  
             </div>
         </div>
