@@ -129,7 +129,7 @@ dd {
 /*----------------------------------------------*/
 
 /* Fonts */\
-\.con1 .wood-f {padding-bottom:9%}
+.con1 .wood-f {padding-bottom:9%}
 .con1 .wood-f input {
   display:inline;
   width:49%;
@@ -149,6 +149,40 @@ dd {
   transition:.5s;
 }
 .con1 .wood-f input:focus{
+  background-color:#242331;
+  border-bottom: 6px solid #352721;
+      border-top: 2px solid #DDCA7D;
+  
+/*   border:2px solid #DDCA7D; */
+}
+ .wood-f input:hover {
+    border-top: 2px solid #DDCA7D;
+    color: #DEDAA9;
+   
+}
+
+
+.con2 .wood-f {padding-bottom:9%}
+.con2 .wood-f{
+  display:inline;
+  width:80%;
+  height:50%;
+  margin-top:3%;
+  padding: 15px;
+  
+  background-color: #1A202C;
+  color:#F0F3BD;
+  font-family:Inconsolata;
+  font-size: 20px;
+  font-family: 'Abel', sans-serif;
+  
+  outline:none;
+  border-radius: 5px;
+  border:2px solid #533E2D;
+  border-bottom: 6px solid #352721;
+  transition:.5s;
+}
+.con2 .wood-f:focus{
   background-color:#242331;
   border-bottom: 6px solid #352721;
       border-top: 2px solid #DDCA7D;
