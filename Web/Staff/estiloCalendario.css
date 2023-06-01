@@ -1,0 +1,15 @@
+/* -------------------------------Calendario*/ 
+.calendario {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    scale: 175%;
+}
+
+#calendarContainer
+#organizerContainer {
+    float: left;
+    margin: 5px;
+}

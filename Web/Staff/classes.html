@@ -3,8 +3,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>O seu perfil</title>
         <link rel="stylesheet" href="estiloperfil.css">
-        <link href="https:/fonts.googleapis.com/css2?
-        family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estiloClasses.css">
+        <link href="https:/fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -16,40 +16,78 @@
                 <div class="exit"><a href="index.html"><img src="imagens/exit.png" style="height: 40px; width: 40px;"></a></div>
             </div>
 
-       <div class="container1">
+            <div class="container1">
 
-            <div class="card" style="background-image: url(imagens/cycling.jpg);">
-                <div class="card-content">
-                  <h3 style="font-size: medium; color: rgb(255, 255, 255);">Cycling</h3>
-                  <p></p>
+                <div class="card1" style="background-image: url(imagens/cycling.jpg);">
+                    <div class="card1-content">
+                    <h3 style="font-size: medium; color: rgb(255, 255, 255);">Cycling</h3>
+                    <p></p>
+                    </div>
                 </div>
-            </div>
            
-            <div class="card" style="background-image: url(imagens/yoga.jpg);">
-                <div class="card-content">
-                  <h3 style="font-size: medium; color: rgb(255, 255, 255);">Yoga</h3>
-                  <p></p>
+                <div class="card" style="background-image: url(imagens/yoga.jpg);">
+                    <div class="card-content">
+                    <h3 style="font-size: medium; color: rgb(255, 255, 255);">Yoga</h3>
+                    <p></p>
+                    </div>
                 </div>
-            </div>
            
-            <div class="card" style="background-image: url(imagens/croosscard.avif);">
-                <div class="card-content">
-                  <h3 style="font-size: medium; color: rgb(0, 0, 0);">Cross-Training</h3>
-                  <p></p>
+                <div class="card" style="background-image: url(imagens/croosscard.avif);">
+                    <div class="card-content">
+                    <h3 style="font-size: medium; color: rgb(0, 0, 0);">Cross-Training</h3>
+                    <p></p>
+                    </div>
                 </div>
-            </div>
            
-            <div class="card" style="background-image: url(imagens/zumbacard.avif);">
-                <div class="card-content">
-                  <h3 style="font-size: medium; color: rgb(0, 0, 0);">Zumba</h3>
-                  <p></p>
+                <div class="card" style="background-image: url(imagens/zumbacard.avif);">
+                    <div class="card-content">
+                    <h3 style="font-size: medium; color: rgb(0, 0, 0);">Zumba</h3>
+                    <p></p>
+                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
-            
-              
+
+            <div class="container1">
+            <div class='detail'>
+                <div class='detail-container'>
+                    <dl>
+                        <dt>
+                            <h4>Cycling class</h4>
+                        </dt>
+                        <dd></dd>
+                        
+                        <div class="con1">
+                            <div class="wood-f">
+                            <form>
+                                <input type="text" name="Date" placeholder="day/month" required>
+                                <br>
+                                <input type="text" name="Init time" placeholder="Starting hour" required>
+                                <input type="text" name="end time" placeholder="Ending hour" required>
+                                <br>
+                                <input class="con2" type="text" name="description" placeholder="Description">
+                                <br>
+                                <input type="submit" value="Confirm" class="button">
+                                <input type="reset" value="Reset" class="button reset">
+                            </form>
+                            </div>
+                        </div>
+
+                    </dl>
+                </div>
+                
+                <div class='detail-nav'>
+                    <button class='close'>
+                        Close
+                    </button>
+                 </div>
+            </div>
         </div>
-        </div>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script  src="./scriptClasses.js"></script>
+     
+
     </body>
 </html>
