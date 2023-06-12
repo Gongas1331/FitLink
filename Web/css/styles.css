@@ -77,26 +77,26 @@ body {
 }
 
 .home-icon {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background: #e03616;
     color: var(--white);
-    padding: 20px 20px;
     margin: 5px;
-    opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 250px;
     border-top-left-radius: 69px;
     border-top-right-radius: 69px;
     border-bottom-left-radius: 69px;
     border-bottom-right-radius: 69px;
-    overflow: hidden;
 }
 
 .home-logo {
     width: 300px;
     padding-left: 30px;
+}
+
+.navbar {
+    background-color: #3FA7D6;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -135,3 +135,5 @@ body {
     float: left;
     margin: 5px;
   }
+
+  
