@@ -100,40 +100,34 @@
     </div>
   </div>
   <!-- activity section start -->
-  <div class="frame">
-    <div class="center">
-      <div class="headline">
-        <div class="small">your daily</div>progress
+  <div class="nav z-depth-0">
+    <div class="section center">
+      <h3 class="white-text center">Fitness Tracker (Line Graphs)</h3>
+    </div>
+  </div>
+  <div class="section center">
+    <p class="grey-text flow-text">A fitness tracker</p>
+  </div>
+  <div class="container section">
+    <div class="row">
+      <div class="col s12 l5">
+        <button class="active" data-activity="cycling">Cycling</button>
+        <button data-activity="running">Running</button>
+        <button data-activity="swimming">Swimming</button>
+        <button data-activity="walking">Walking</button>
       </div>
-      <div class="circle-big">
-        <div class="text">
-          2569<div class="small">kcal</div>
-        </div>
-        <svg>
-          <circle class="bg" cx="57" cy="57" r="52" />
-          <circle class="progress" cx="57" cy="57" r="52" />
-        </svg>
+      <div class="col s12 l6 push-l1">
+        <div class="canvas"></div>
       </div>
-      <div class="circles-small">
-        <div class="circle-small">
-          <div class="text">
-            8345<div class="small">steps</div>
-          </div>
-          <svg>
-            <circle class="bg" cx="40" cy="40" r="37" />
-            <circle class="progress one" cx="40" cy="40" r="37" />
-          </svg>
-        </div>
-        <div class="circle-small">
-          <div class="text">
-            5.7<div class="small">km</div>
-          </div>
-          <svg>
-            <circle class="bg" cx="40" cy="40" r="37" />
-            <circle class="progress two" cx="40" cy="40" r="37" />
-          </svg>
-        </div>
-      </div>
+    </div>
+    <div class="row">
+      <form class="col m6 push-m3">
+        <p class="flow-text grey-text center">
+          How much <span>Cycling</span> have you done today?
+        </p>
+        <input type="text" class="grey-text" id="cycling" placeholder="Distance in m" />
+        <p class="center pink-text error text-lighten-1"></p>
+      </form>
     </div>
   </div>
   <!-- activity section end -->

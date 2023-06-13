@@ -19,6 +19,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <!-- Responsive-->
 <link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/tracker.css">
 <!-- fevicon -->
 <link rel="icon" href="images/fevicon.png" type="image/gif" />
 <!-- Scrollbar Custom CSS -->
@@ -77,25 +78,35 @@
       </div>
     </div>
   <!-- header section end -->
-    <!-- about section start -->
-    <div class="about_section layout_padding">
+    <!-- product section start -->
+    <div class="product_section layout_padding margin_0">
       <div class="container">
-        <div class="row">
           <div class="col-md-6">
-            <div class="image_1"><img src="images/img-1.png"></div>
+            <button><a class="nav-item nav-link active" data-toggle="tab" href="#tab-pane-1">Pequeno Almoço</a></button>
+            <button><a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-2">Almoço</a></button>
+            <button><a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-3">Jantar</a></button>
           </div>
-          <div class="col-md-6">
-            <h1 class="welcome_text">WEL COME</h1>
-            <h1 class="live_text">BBB GYM</h1>
-            <p class="lorem_text">majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't  It is a long established fact that a reader will be distracted by the readable content of a page when <li></li></p>
-            <div class="online_bt_main">
-              <div class="read_bt1"><a href="#">Read More</a></div>
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="tab-pane-1">
+              <p class="lorem_text1"><img src="images/meal.png"><span class="right_icon">Copo de Leite</span></p>
+              <p class="lorem_text1"><img src="images/meal.png"><span class="right_icon">Banana</span></p>
+              <p class="lorem_text1"><img src="images/meal.png"><span class="right_icon">Bolachas de Água e Sal</span></p>
+            </div>
+            <div class="tab-pane fade" id="tab-pane-2">
+              <p class="lorem_text1"><img src="images/meal.png"><span class="right_icon">Caldo Verde</span></p>
+              <p class="lorem_text1"><img src="images/meal.png"><span class="right_icon">Peito de Frango com Bróculos</span></p>
+              <p class="lorem_text1"><img src="images/meal.png"><span class="right_icon">Laranja</span></p>
+            </div>
+            <div class="tab-pane fade" id="tab-pane-3">
+              <p class="lorem_text1"><img src="images/meal.png"><span class="right_icon">Salada de Alface e Tomate</span></p>
+              <p class="lorem_text1"><img src="images/meal.png"><span class="right_icon">Salmão Grelhado com Esparregado</span></p>
+              <p class="lorem_text1"><img src="images/meal.png"><span class="right_icon">Maçã</span></p>
             </div>
           </div>
         </div>
-      </div>
     </div>
-    <!-- about section end --> 
+  </div>
+  <!-- product section end -->
     <!-- footer section start -->
     <div class="footer_section layout_padding">
       <div class="container">
@@ -128,6 +139,9 @@
     <script src="js/custom.js"></script>
     <!-- javascript --> 
     <script src="js/owl.carousel.js"></script>
-    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>    
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
 </body>
 </html>
